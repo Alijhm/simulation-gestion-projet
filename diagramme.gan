@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Partiel_Ali_Souleymane_Maroua" company="" webLink="http://" view-date="2025-12-31" view-index="0" gantt-divider-location="718" resource-divider-location="300" version="3.3.3316" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="240" order="0"/>
+        <field id="tpd4" name="Date de début" width="228" order="1"/>
+        <field id="tpd5" name="Date de fin" width="234" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#99ccff #f4f4f4]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="85e6256370af49d3933dc57075db5d1f" name="Début" color="#99ccff" meeting="true" start="2026-01-05" duration="0" complete="0" thirdDate="2026-01-05" thirdDate-constraint="1" expand="true">
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+            <depend id="16" type="2" difference="0" hardness="Strong"/>
+            <depend id="18" type="2" difference="0" hardness="Strong"/>
+            <depend id="24" type="2" difference="0" hardness="Strong"/>
+            <depend id="25" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="26" uid="cf12755e1cc14f76a4477dfe091a16d8" name="Gestion des promotions" meeting="false" start="2026-01-15" duration="8" complete="0" expand="true">
+            <task id="23" uid="873eae2cce56444994337fc9cb9fcf73" name="Tri avancé (prix, popularité, fin de promotion). W" meeting="false" start="2026-01-23" duration="2" complete="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="15" uid="f2dd34d22ffc418eb42150466d8a3b90" name="Notifications push (web ou mobile) lors de nouvelles promotions. O" meeting="false" start="2026-01-19" duration="2" complete="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="7" uid="4ab1e706d1444b2bbd1a716625ef229f" name="Filtre par type de promotion (remise, lot, carte fidélité, etc.). G" meeting="false" start="2026-01-23" duration="2" complete="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="1" uid="8fcfe7c600304e7cb08d2bd49634f47b" name="Affichage des promotions en cours par magasin. A" meeting="false" start="2026-01-15" duration="1" complete="0" expand="true">
+                <depend id="4" type="2" difference="0" hardness="Strong"/>
+                <depend id="15" type="2" difference="0" hardness="Strong"/>
+                <depend id="22" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="2" uid="0f57de89e72e4b4fb366f664148582ce" name="Affichage des promotions à venir par magasin. B" meeting="false" start="2026-01-15" duration="1" complete="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="3" uid="20dbd2b0c0c847e2b4ff9813fcc97151" name="Affichage des promotions par produit. C" meeting="false" start="2026-01-15" duration="2" complete="0" expand="true">
+                <depend id="4" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="27" uid="a583719f865e4b339092ecc843d3c4fb" name="Gestion des produits" meeting="false" start="2026-01-15" duration="9" complete="0" expand="true">
+            <task id="4" uid="eba2e1326e5a4e509a134643954d9e7c" name="Page détaillée des produits (prix initial, prix remisé, durée, description). D" meeting="false" start="2026-01-19" duration="4" complete="0" expand="true">
+                <depend id="7" type="2" difference="0" hardness="Strong"/>
+                <depend id="8" type="2" difference="0" hardness="Strong"/>
+                <depend id="9" type="2" difference="0" hardness="Strong"/>
+                <depend id="13" type="2" difference="0" hardness="Strong"/>
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+                <depend id="22" type="2" difference="0" hardness="Strong"/>
+                <depend id="23" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="8" uid="e70acee7017c49debbbe87311cc3f538" name="Comparateur de prix entre magasins pour un même produit. H" meeting="false" start="2026-01-23" duration="2" complete="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="21" uid="997ee9df26c246928bcfba74a7795a6d" name="Suivi des stocks en temps réel pour chaque magasin. U" meeting="false" start="2026-01-15" duration="3" complete="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="13" uid="e67e08fad56d40a98910cece4ad8e3a9" name="Réservation / mise de côté d’un produit (si disponible). M" meeting="false" start="2026-01-23" duration="3" complete="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="28" uid="0fdba1ed114448a792bca8af009aca9c" name="Gestion des magasins" meeting="false" start="2026-01-05" duration="13" complete="0" expand="true">
+            <task id="5" uid="1927dc2826b84a00b04c1f23cfeded2c" name="Page détaillée des magasins (adresse, contact, horaires, accès). E" meeting="false" start="2026-01-15" duration="3" complete="0" expand="true">
+                <depend id="6" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="6" uid="1f1130d3ff7440d0bb47f314f1ca702a" name="Affluence en temps réel pour chaque magasin. F" meeting="false" start="2026-01-20" duration="2" complete="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="11" uid="eb8a33b913f84b9aa76d95d04940b6e2" name="Localisation GPS pour trouver le magasin le plus proche. K" meeting="false" start="2026-01-05" duration="2" complete="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="12" uid="88168c99cfbf4e43ab12e68c8fc9572f" name="Plan du magasin avec position des rayons. L" meeting="false" start="2026-01-05" duration="4" complete="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="29" uid="c7e419ac55984d578484e1323d729850" name="Experience client" meeting="false" start="2026-01-05" duration="18" complete="0" expand="true">
+            <task id="10" uid="817ff1bc7dc8417fa668302bcb6f53f7" name="Espace fidélité (points, avantages, bons de réduction). J" meeting="false" start="2026-01-08" duration="4" complete="0" expand="true">
+                <depend id="14" type="2" difference="0" hardness="Strong"/>
+                <depend id="20" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="24" uid="93b31b707ada4124af072e772ead5b39" name="Mode invité + possibilité de création de compte. X" meeting="false" start="2026-01-05" duration="3" complete="0" expand="true">
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
+                <depend id="17" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="20" uid="b32af890267047d9b7f22fe99b7d8115" name="Liste de courses personnalisée avec gestion des produits. T" meeting="false" start="2026-01-14" duration="6" complete="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="17" uid="228a1c6379fb44e5aca4c75c90e17dfc" name="Avis clients (notes, commentaires, photos). Q" meeting="false" start="2026-01-08" duration="3" complete="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="16" uid="75186e540e6e427f907a0014d055a981" name="Recommandations personnalisées selon les habitudes d’achat. P" meeting="false" start="2026-01-19" duration="8" complete="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="14" uid="f75a832849b14d19bc622ee0bc6e9846" name="Historique des promotions consultées ou achetées. N" meeting="false" start="2026-01-14" duration="3" complete="0" expand="true">
+                <depend id="15" type="2" difference="0" hardness="Strong"/>
+                <depend id="16" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="9" uid="a6e9f630f6234af88d94b5c104a2982c" name="Alertes personnalisées sur les produits ou promotions favorites. I" meeting="false" start="2026-01-23" duration="1" complete="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="30" uid="ea9736e5b8cb4403911911d008284e66" name="Fonctionnalités diverses/transverses" meeting="false" start="2026-01-05" duration="15" complete="0" expand="true">
+            <task id="18" uid="fef6533d0492474e9a302a09c5b3a7b1" name="Chatbot d’assistance pour questions et orientations. R" meeting="false" start="2026-01-05" duration="5" complete="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="22" uid="633bbe19bb2340bc82946c44eacb2dce" name="Recherche globale (produits, promotions, magasins). V" meeting="false" start="2026-01-23" duration="1" complete="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="19" uid="1d9bd12c268847e2bee959f7c19bf0e7" name="Partage sur les réseaux sociaux des promotions intéressantes. S" meeting="false" start="2026-01-23" duration="1" complete="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="25" uid="8017a337e7844015afd73644fb98daa3" name="Interface administration pour gérer promotions / stocks / magasins. Y" meeting="false" start="2026-01-05" duration="8" complete="0" expand="true">
+                <depend id="1" type="2" difference="0" hardness="Strong"/>
+                <depend id="2" type="2" difference="0" hardness="Strong"/>
+                <depend id="3" type="2" difference="0" hardness="Strong"/>
+                <depend id="4" type="2" difference="0" hardness="Strong"/>
+                <depend id="5" type="2" difference="0" hardness="Strong"/>
+                <depend id="21" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="35" uid="75020e765de6471e8dfd75bfc6366e6f" name="Fin" meeting="true" start="2026-01-29" duration="0" complete="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
